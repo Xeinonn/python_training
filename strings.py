@@ -12,5 +12,7 @@ ich_in_der_box = "\nund ich bin ein Teil davon!."
 print(meine_box.upper() + ich_in_der_box.lower())
 #The letter with the integer value of 6 is being printed.
 print(meine_box[6])
-#Index fucntion prints the integer number of the certain letter in the string.
+#Index function prints the integer number of the certain letter in the string.
 print(meine_box.index("E"))
+#Replace function replaces the certain value in your variable to the specific one.
+print(meine_box.replace("DIE", "The"))
