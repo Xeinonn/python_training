@@ -1,3 +1,6 @@
+#We import from python more math functions
+from math import *
+from pyexpat.errors import XML_ERROR_INVALID_TOKEN
 #Just print a number 2.
 print(2)
 #Print of a decimal number.
@@ -19,4 +22,18 @@ Number_3 = 8
 print (Number_1 + Number_2)
 #Usage of a str function before a number to display it as a string.
 print(str(Number_3) + " is my number.")
-#Expona
+#Exponential test with pow function.
+ex_num1 = 7
+print(pow(ex_num1, 2))
+#Output of the biggest(max) number in a specific set of numbers.
+print(max(5, 8, 2, 9, 751, 399, 750, 121, 655, 39))
+#Output the smallest(min) number of the specific input.
+print(min(5, 8, 2, 9, 751, 399, 750, 121, 655, 39))
+#Round the certain Number.
+print(round(2.6))
+#Removing the decimal part of the number.
+print(floor(2.6))
+#The inout will be rounded to the higher value.
+print(ceil(2.1))
+#Get the root of the certain number.
+print(sqrt(81))
