@@ -13,7 +13,7 @@ print(6*2)
 print(7+6)
 #Usage of parentesis with an example.
 print(3*(5+10))
-#Modular example, which means here 9/3 and ramains 1.
+#Modular example, which means here 9/3 and ramains 1, this is the answer.
 print(10%3)
 Number_1 = 794
 Number_2 = 206
