@@ -11,5 +11,5 @@ def calculator(num_1, num_2):
 #Outside the fuction we ask from user for the input of the numbers.    
 num_1 = input("Give me your first number:")
 num_2 = input("Give me your second number:")
-#Then we print the 
+#Then we print the output of the called function. 
 print(calculator(num_1, num_2))
