@@ -1,5 +1,6 @@
 #Training with comparison. Let's use 5 numbers, The highest number should be returned. If the number is 777, you got the lucky number.
 #Has to be improved, if you type 777, it returns also the variable t1, but it is not needed in that case.
+#If a number is higher then  777 it will be printed instead, but a Jackpot with 777 is more valuable. I have to fix this.
 def casino(num1, num2, num3, num4, num5):
     if num1 >= num2 and num1 >= num3 and num1 >= num4 and num1 >= num5:
         return num1
@@ -16,4 +17,4 @@ def casino(num1, num2, num3, num4, num5):
     else: 
         print("Please call the function with 5 different numbers to let it work properly.")
 t1 = "is the highest number."
-print(casino(1000, 465, 897, 777, 256), t1)
+print(casino(1000, 465, 897, 1735, 256), )
